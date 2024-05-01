@@ -1,0 +1,8 @@
+/home/sdlreco/anaconda3/envs/py_3.8.8_0/lib/python3.8/site-packages/numpy/lib/arraysetops.py:583: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  mask |= (ar1 == a)
+0it [00:00, ?it/s]1it [00:00,  4.49it/s]1it [02:07, 127.63s/it]
+0it [00:00, ?it/s]1it [00:00,  4.49it/s]1it [02:00, 120.32s/it]
+/home/sdlreco/anaconda3/envs/py_3.8.8_0/lib/python3.8/site-packages/openpyxl/styles/stylesheet.py:221: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+0it [00:00, ?it/s]1it [00:33, 33.20s/it]
+0it [00:00, ?it/s]1it [00:31, 31.50s/it]

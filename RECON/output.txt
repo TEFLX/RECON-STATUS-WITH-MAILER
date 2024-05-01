@@ -1,0 +1,87 @@
+expdp directory=DPUMP1 dumpfile=expdp_T_OTP_BYPASS_LOGS_26MAY2023_15JUL2023_25072023.dmp logfile=expdp_T_OTP_BYPASS_LOGS_26MAY2023_15JUL2023_25072023.log tables=MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P95791, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P96111, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P96571, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P96843, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P97198, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P97526, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P97835, MCOMMERCE.T_OTP_BYPASS_LOGS:SYS_P98166, 
+
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P95791 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P96111 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P96571 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P96843 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P97198 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_OTP_BYPASS_LOGS drop partition SYS_P98166 update global indexes;
+
+alter index MCOMMERCE.T_OTP_BYPASS_LOGS_PK rebuild online parallel 10;
+
+
+expdp directory=DPUMP1 dumpfile=expdp_T_H2H_TRANSACTIONS_NOV23_DEC23_25072023.dmp logfile=expdp_T_H2H_TRANSACTIONS_NOV23_DEC23_25072023.log tables=MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P96111, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P96571, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P96843, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P97198, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P97526, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P97835, MCOMMERCE.T_H2H_TRANSACTIONS:SYS_P98166, 
+
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P96111 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P96571 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P96843 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P97198 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_H2H_TRANSACTIONS drop partition SYS_P98166 update global indexes;
+
+alter index MCOMMERCE.IDX_H2H_TXNFTPBID rebuild online parallel 10;
+alter index MCOMMERCE.INDX_H2H_TRANS_LDT rebuild online parallel 10;
+alter index MCOMMERCE.T_H2H_TRANSACTIONS_UK_1 rebuild online parallel 10;
+alter index MCOMMERCE.INDX_HWH_TRANS_BANK_REF_NO rebuild online parallel 10;
+alter index MCOMMERCE.T_H2H_TRANSACTION_REQ_PK_1 rebuild online parallel 10;
+alter index MCOMMERCE.INDX_H2H_TRANS_FETCH_STATUS rebuild online parallel 10;
+alter index MCOMMERCE.INDX_H2H_TRANS_FINAL_STATUS rebuild online parallel 10;
+alter index MCOMMERCE.INDX_H2H_TRANSACTIONS_INDEX1 rebuild online parallel 10;
+alter index MCOMMERCE.INDX_H2H_TRANSACTIONS_INDEX2 rebuild online parallel 10;
+
+
+expdp directory=DPUMP1 dumpfile=expdp_T_MPOS_MOSAMBEE_APP_REQUEST_MAR23_APR23_25072023.dmp logfile=expdp_T_MPOS_MOSAMBEE_APP_REQUEST_MAR23_APR23_25072023.log tables=MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P96571, MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P96843, MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P97198, MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P97526, MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P97835, MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST:SYS_P98166, 
+
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P96571 update global indexes;
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P96843 update global indexes;
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P97198 update global indexes;
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUEST drop partition SYS_P98166 update global indexes;
+
+alter index MCOMMERCE.INDEX_MPOS_APP_REQ_P rebuild online parallel 10;
+alter index MCOMMERCE.T_MPOS_MOSAMBEE_APP_REQUES_PKE1 rebuild online parallel 10;
+alter index MCOMMERCE.IDX_T_MPOS_MOSAMBEE_APP_REQ_UDF2 rebuild online parallel 10;
+alter index MCOMMERCE.IDX_T_MPOS_MOSAMBEE_APP_REQ_LOGDATE rebuild online parallel 10;
+
+
+expdp directory=DPUMP1 dumpfile=expdp_T_B2B_OTP_APR23_JUN23_25072023.dmp logfile=expdp_T_B2B_OTP_APR23_JUN23_25072023.log tables=MCOMMERCE.T_B2B_OTP:SYS_P96843, MCOMMERCE.T_B2B_OTP:SYS_P97198, MCOMMERCE.T_B2B_OTP:SYS_P97526, MCOMMERCE.T_B2B_OTP:SYS_P97835, MCOMMERCE.T_B2B_OTP:SYS_P98166, 
+
+alter table MCOMMERCE.T_B2B_OTP drop partition SYS_P96843 update global indexes;
+alter table MCOMMERCE.T_B2B_OTP drop partition SYS_P97198 update global indexes;
+alter table MCOMMERCE.T_B2B_OTP drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_B2B_OTP drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_B2B_OTP drop partition SYS_P98166 update global indexes;
+
+alter index MCOMMERCE.IDX_B2B_OTP_L_DATE rebuild online parallel 10;
+alter index MCOMMERCE.IDX_B2B_OTP_MOB_STS rebuild online parallel 10;
+alter index MCOMMERCE.T_B2B_OTP_LOG_OTP_PK rebuild online parallel 10;
+alter index MCOMMERCE.IDX_B2B_OTP_MOBILE_NO rebuild online parallel 10;
+alter index MCOMMERCE.IDX_B2B_OTP_MOB_LDATE rebuild online parallel 10;
+
+
+expdp directory=DPUMP1 dumpfile=expdp_T_PPI_SD_SESSION_CREATE_30JAN23_10JUL23_25072023.dmp logfile=expdp_T_PPI_SD_SESSION_CREATE_30JAN23_10JUL23_25072023.log tables=MCOMMERCE.T_PPI_SD_SESSION_CREATE:SYS_P97198, MCOMMERCE.T_PPI_SD_SESSION_CREATE:SYS_P97526, MCOMMERCE.T_PPI_SD_SESSION_CREATE:SYS_P97835, MCOMMERCE.T_PPI_SD_SESSION_CREATE:SYS_P98166, 
+
+alter table MCOMMERCE.T_PPI_SD_SESSION_CREATE drop partition SYS_P97198 update global indexes;
+alter table MCOMMERCE.T_PPI_SD_SESSION_CREATE drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_PPI_SD_SESSION_CREATE drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_PPI_SD_SESSION_CREATE drop partition SYS_P98166 update global indexes;
+
+alter index MCOMMERCE.INDX_AGG_ID rebuild online parallel 10;
+alter index MCOMMERCE.INDX_SESS_ID rebuild online parallel 10;
+alter index MCOMMERCE.INDX_BC_AGENT rebuild online parallel 10;
+alter index MCOMMERCE.INDX_CLIENTID rebuild online parallel 10;
+alter index MCOMMERCE.INDX_PPI_SD_SESSION_CREATE_CTD rebuild online parallel 10;
+
+
+expdp directory=DPUMP1 dumpfile=expdp_T_SC_TRANS_COMM_APR23_25072023.dmp logfile=expdp_T_SC_TRANS_COMM_APR23_25072023.log tables=MCOMMERCE.T_SC_TRANS_COMM:SYS_P97526, MCOMMERCE.T_SC_TRANS_COMM:SYS_P97835, MCOMMERCE.T_SC_TRANS_COMM:SYS_P98166, 
+
+alter table MCOMMERCE.T_SC_TRANS_COMM drop partition SYS_P97526 update global indexes;
+alter table MCOMMERCE.T_SC_TRANS_COMM drop partition SYS_P97835 update global indexes;
+alter table MCOMMERCE.T_SC_TRANS_COMM drop partition SYS_P98166 update global indexes;
+
+
+

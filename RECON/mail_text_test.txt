@@ -1,0 +1,27 @@
+
+2023-07-15 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/15/EmailReports/RBL_MovetoBank/*_14072023.xlsx 
+2023-07-16 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/16/EmailReports/RBL_MovetoBank/*_15072023.xlsx 
+2023-07-17 , fino_dmt ,  Recon yet to be Done,Files Missing - 
+2023-07-17 , fino_matm ,  Recon yet to be Done,Files Missing - 2023/07/17/EmailReports/FINO_MATM/DailyReport_APPSPICEM_16072023_MATM.XLSX 
+2023-07-17 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/17/EmailReports/RBL_MovetoBank/*_16072023.xlsx 
+2023-07-18 , irctc_reco ,  Recon yet to be Done,Files Missing - 2023/07/18/IRCTC/DailyBookingReport_17_07_2023.csv 2023/07/18/IRCTC/DailyCancelRefundReport_17_07_2023.csv 
+2023-07-18 , equitas_matm ,  Recon yet to be Done,Files Missing - 2023/07/18/EquitasMATM/Spice sarvatra report Micro ATM 17-07-2023 1234C.xlsx 2023/07/18/EquitasMATM/Spice sarvatra report Micro ATM 17-07-2023 2C.xlsx 2023/07/18/EquitasMATM/Spice sarvatra report Micro ATM 17-07-2023 3C.xlsx 
+2023-07-18 , morefun_matm ,  Recon yet to be Done,Files Missing - 2023/07/18/EquitasMATM/Mosambee Micro ATM 17-07-2023 1234C.xlsx 2023/07/18/EquitasMATM/Mosambee Micro ATM 17-07-2023 2C.xlsx 2023/07/18/EquitasMATM/Mosambee Micro ATM 17-07-2023 3C.xlsx 
+2023-07-18 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/18/EmailReports/RBL_MovetoBank/*_17072023.xlsx 
+2023-07-19 , equitas_matm ,  Recon yet to be Done,Files Missing - 2023/07/19/EquitasMATM/Spice sarvatra report Micro ATM 18-07-2023 1234C.xlsx 2023/07/19/EquitasMATM/Spice sarvatra report Micro ATM 18-07-2023 2C.xlsx 2023/07/19/EquitasMATM/Spice sarvatra report Micro ATM 18-07-2023 3C.xlsx 
+2023-07-19 , morefun_matm ,  Recon yet to be Done,Files Missing - 2023/07/19/EquitasMATM/Mosambee Micro ATM 18-07-2023 1234C.xlsx 2023/07/19/EquitasMATM/Mosambee Micro ATM 18-07-2023 2C.xlsx 2023/07/19/EquitasMATM/Mosambee Micro ATM 18-07-2023 3C.xlsx 
+2023-07-19 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/19/EmailReports/RBL_MovetoBank/*_18072023.xlsx 
+2023-07-20 , fino_matm ,  Recon yet to be Done,Files Missing - 2023/07/20/EmailReports/FINO_MATM/DailyReport_APPSPICEM_19072023_MATM.XLSX 
+2023-07-20 , equitas_matm ,  Recon yet to be Done,Files Missing - 2023/07/20/EquitasMATM/Spice sarvatra report Micro ATM 19-07-2023 1234C.xlsx 2023/07/20/EquitasMATM/Spice sarvatra report Micro ATM 19-07-2023 2C.xlsx 2023/07/20/EquitasMATM/Spice sarvatra report Micro ATM 19-07-2023 3C.xlsx 
+2023-07-20 , morefun_matm ,  Recon yet to be Done,Files Missing - 2023/07/20/EquitasMATM/Mosambee Micro ATM 19-07-2023 1234C.xlsx 2023/07/20/EquitasMATM/Mosambee Micro ATM 19-07-2023 2C.xlsx 2023/07/20/EquitasMATM/Mosambee Micro ATM 19-07-2023 3C.xlsx 
+2023-07-20 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/20/EmailReports/RBL_MovetoBank/*_19072023.xlsx 
+2023-07-21 , fino_dmt ,  Recon yet to be Done,Files Missing - 2023/07/21/EmailReports/FINO_DMT/*.txt/*.txt 2023/07/21/EmailReports/FINO_DMT/SPICEDIGITAL_TransactionReport_20022222085_20-07-2023.csv 
+2023-07-21 , fino_matm ,  Recon yet to be Done,Files Missing - 2023/07/21/EmailReports/FINO_MATM/DailyReport_APPSPICEM_20072023_MATM.XLSX 
+2023-07-21 , equitas_matm ,  Recon yet to be Done,Files Missing - 2023/07/21/EquitasMATM/Spice sarvatra report Micro ATM 20-07-2023 1234C.xlsx 2023/07/21/EquitasMATM/Spice sarvatra report Micro ATM 20-07-2023 2C.xlsx 2023/07/21/EquitasMATM/Spice sarvatra report Micro ATM 20-07-2023 3C.xlsx 
+2023-07-21 , morefun_matm ,  Recon yet to be Done,Files Missing - 2023/07/21/EquitasMATM/Mosambee Micro ATM 20-07-2023 1234C.xlsx 2023/07/21/EquitasMATM/Mosambee Micro ATM 20-07-2023 2C.xlsx 2023/07/21/EquitasMATM/Mosambee Micro ATM 20-07-2023 3C.xlsx 
+2023-07-21 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/21/EmailReports/RBL_MovetoBank/*_20072023.xlsx 
+2023-07-22 , fino_dmt ,  Recon yet to be Done,Files Missing - 2023/07/22/EmailReports/FINO_DMT/*.txt/*.txt 2023/07/22/EmailReports/FINO_DMT/SPICEDIGITAL_TransactionReport_20022222085_21-07-2023.csv 
+2023-07-22 , fino_matm ,  Recon yet to be Done,Files Missing - 2023/07/22/EmailReports/FINO_MATM/DailyReport_APPSPICEM_21072023_MATM.XLSX 
+2023-07-22 , equitas_matm ,  Recon yet to be Done,Files Missing - 2023/07/22/EquitasMATM/Spice sarvatra report Micro ATM 21-07-2023 1234C.xlsx 2023/07/22/EquitasMATM/Spice sarvatra report Micro ATM 21-07-2023 2C.xlsx 2023/07/22/EquitasMATM/Spice sarvatra report Micro ATM 21-07-2023 3C.xlsx 2023/07/22/EquitasMATM/Spice sarvatra report Micro ATM 21-07-2023 4C&1C.xlsx 
+2023-07-22 , morefun_matm ,  Recon yet to be Done,Files Missing - 2023/07/22/EquitasMATM/Mosambee Micro ATM 21-07-2023 1234C.xlsx 2023/07/22/EquitasMATM/Mosambee Micro ATM 21-07-2023 2C.xlsx 2023/07/22/EquitasMATM/Mosambee Micro ATM 21-07-2023 3C.xlsx 2023/07/22/EquitasMATM/Mosambee Micro ATM 21-07-2023 4C&1C.xlsx 
+2023-07-22 , rbl_h2h ,  Recon yet to be Done,Files Missing - 2023/07/22/EmailReports/RBL_MovetoBank/*_21072023.xlsx 

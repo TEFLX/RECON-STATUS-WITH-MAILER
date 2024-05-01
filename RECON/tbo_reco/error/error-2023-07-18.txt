@@ -1,0 +1,4 @@
+/home/sdlreco/anaconda3/envs/py_3.8.8_0/lib/python3.8/site-packages/openpyxl/styles/stylesheet.py:221: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+0it [00:00, ?it/s]1it [00:39, 39.45s/it]
+0it [00:00, ?it/s]1it [00:35, 35.92s/it]

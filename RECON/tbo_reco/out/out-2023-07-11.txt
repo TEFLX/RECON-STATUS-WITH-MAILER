@@ -1,0 +1,746 @@
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 12:00:13.710529, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 12:00:13.710681, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 12:00:13.710747, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 12:00:13.710820, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Files missing : Logged at -- /home/sdlreco/crons/nsdl_aeps/error/missing-2023-07-11.txt
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 12:30:14.354732, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 12:30:14.354908, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 12:30:14.354976, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 12:30:14.355045, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Files missing : Logged at -- /home/sdlreco/crons/nsdl_aeps/error/missing-2023-07-11.txt
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 13:00:11.640222, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 13:00:11.640395, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 13:00:11.640468, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 13:00:11.640537, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Files missing : Logged at -- /home/sdlreco/crons/nsdl_aeps/error/missing-2023-07-11.txt
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 13:30:14.945475, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 13:30:14.945648, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 13:30:14.945721, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 13:30:14.945786, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Reconciliation for:  2023-07-11
+All files found, Processing ...
+gs://sm-prod-rpa/2023/07/11/NSDLAEPSTransaction Report/Daily_AEPS_Transaction_10-JUL-2023-SPICE_MONEY/Daily_AEPS_Transaction_10-JUL-2023-SPICE_MONEY.txt
+                                 REF_TXN_NO  ... tagging
+0  MVBAL21230710050085123                    ...     NaN
+1  20230710050027264326                      ...     NaN
+2  20230710050013264329                      ...     NaN
+3  20230710050043264323                      ...     NaN
+4  20230710050108895274                      ...     NaN
+
+[5 rows x 16 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 376459 entries, 0 to 376458
+Data columns (total 16 columns):
+ #   Column         Non-Null Count   Dtype         
+---  ------         --------------   -----         
+ 0   REF_TXN_NO     376459 non-null  object        
+ 1   USRREFNO       376283 non-null  object        
+ 2   CHANTXNREFNO   376459 non-null  object        
+ 3   TXNDATE        376459 non-null  object        
+ 4   VALUEDATE      376459 non-null  datetime64[ns]
+ 5   DESCRIPION     376459 non-null  object        
+ 6   TXN_LITERAL    376459 non-null  object        
+ 7   CHEQUE_NO      376421 non-null  float64       
+ 8   DRCR           376459 non-null  object        
+ 9   TXNBRANCH      376459 non-null  int64         
+ 10  AMOUNT         376459 non-null  float64       
+ 11  OTHER_ACCOUNT  0 non-null       float64       
+ 12  IFSC_CODE      0 non-null       float64       
+ 13  Running_Total  0 non-null       float64       
+ 14  NEW_CHEQUE_NO  0 non-null       float64       
+ 15  tagging        0 non-null       float64       
+dtypes: datetime64[ns](1), float64(7), int64(1), object(7)
+memory usage: 46.0+ MB
+None
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 376459 entries, 0 to 376458
+Data columns (total 16 columns):
+ #   Column         Non-Null Count   Dtype         
+---  ------         --------------   -----         
+ 0   REF_TXN_NO     376459 non-null  object        
+ 1   USRREFNO       376459 non-null  object        
+ 2   CHANTXNREFNO   376459 non-null  object        
+ 3   TXNDATE        376459 non-null  datetime64[ns]
+ 4   VALUEDATE      376459 non-null  object        
+ 5   DESCRIPION     376459 non-null  object        
+ 6   TXN_LITERAL    376459 non-null  object        
+ 7   CHEQUE_NO      376459 non-null  object        
+ 8   DRCR           376459 non-null  object        
+ 9   TXNBRANCH      376459 non-null  object        
+ 10  AMOUNT         376459 non-null  float64       
+ 11  OTHER_ACCOUNT  376459 non-null  object        
+ 12  IFSC_CODE      376459 non-null  object        
+ 13  Running_Total  376459 non-null  object        
+ 14  NEW_CHEQUE_NO  376459 non-null  object        
+ 15  tagging        376459 non-null  object        
+dtypes: datetime64[ns](1), float64(1), object(14)
+memory usage: 46.0+ MB
+None
+sql_code 14 start
+sql_code 15 start
+sql_code 16 start
+sql_code 16 end
+Recon Success for 2023-07-11 at 2023-07-11 13:30:14.945865
+status_code:  200
+Refreshed -  1814cf328d2
+status_code:  200
+Refreshed -  1814d000592
+status_code:  200
+Refreshed -  1814d2861f3
+status_code:  200
+Refreshed -  1814d302fd6
+status_code:  200
+Refreshed -  181a5218e3d
+status_code:  200
+Refreshed -  181588f50c7
+status_code:  200
+Refreshed -  1815897ab4c
+status_code:  200
+Refreshed -  18158a43c1a
+status_code:  200
+Refreshed -  181d79e0c4e
+status_code:  200
+Refreshed -  18158afa8a8
+status_code:  200
+Refreshed -  18158b46acf
+status_code:  200
+Refreshed -  1815b1de1f2
+status_code:  200
+Refreshed -  1815b292325
+status_code:  200
+Refreshed -  1815b33b117
+status_code:  200
+Refreshed -  1815b3851ac
+status_code:  200
+Refreshed -  1815b41c8c1
+status_code:  200
+Refreshed -  1821b51f891
+Refreshed : nsdl_aeps
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 14:00:13.276100, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 14:00:13.276249, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 14:00:13.276316, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 14:00:13.276377, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 14:00:13.276435, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 14:30:15.086780, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 14:30:15.086938, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 14:30:15.087004, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 14:30:15.087065, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 14:30:15.087125, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 15:00:13.408262, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 15:00:13.408407, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 15:00:13.408472, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 15:00:13.408540, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 15:00:13.408601, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 15:30:15.142122, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 15:30:15.142281, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 15:30:15.142358, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 15:30:15.142421, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 15:30:15.142492, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 16:00:14.340515, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 16:00:14.340684, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 16:00:14.340763, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 16:00:14.340849, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 16:00:14.340919, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 16:30:15.570320, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 16:30:15.570465, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 16:30:15.570528, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 16:30:15.570597, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 16:30:15.570655, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 17:00:12.881089, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 17:00:12.881254, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 17:00:12.881323, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 17:00:12.881384, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 17:00:12.881442, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 17:30:16.861913, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 17:30:16.862073, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 17:30:16.862147, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 17:30:16.862215, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 17:30:16.862279, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 18:00:14.056985, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 18:00:14.057145, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 18:00:14.057217, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 18:00:14.057286, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 18:00:14.057356, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 18:30:17.529736, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 18:30:17.775195, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 18:30:17.775268, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 18:30:17.775332, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 18:30:17.775391, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 19:00:13.418027, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 19:00:13.418176, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 19:00:13.418249, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 19:00:13.418314, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 19:00:13.418375, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 19:30:15.523673, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 19:30:15.523847, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 19:30:15.523916, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 19:30:15.523978, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 19:30:15.524037, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 20:00:13.782613, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 20:00:13.782763, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 20:00:13.782842, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 20:00:13.782905, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 20:00:13.782962, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 20:30:16.328470, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 20:30:16.328672, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 20:30:16.328759, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 20:30:16.328865, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 20:30:16.328938, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 21:00:13.097100, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 21:00:13.097253, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 21:00:13.097319, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 21:00:13.097396, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 21:00:13.097467, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 21:30:15.213242, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 21:30:15.213376, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 21:30:15.213448, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 21:30:15.213512, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 21:30:15.213572, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 22:00:13.249684, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 22:00:13.249847, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 22:00:13.249913, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 22:00:13.249974, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 22:00:13.250032, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 22:30:14.557526, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 22:30:14.557667, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 22:30:14.557731, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 22:30:14.557791, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 22:30:14.557861, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 23:00:11.607902, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 23:00:11.608048, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 23:00:11.608116, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 23:00:11.608178, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 23:00:11.608236, but reco already done !!
+File Deleted for check usage
+
+
+
+*******************
+Reconciliation for:  2023-07-07
+Tried at 2023-07-07 23:30:14.920486, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-08
+Tried at 2023-07-08 23:30:14.920636, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-09
+Tried at 2023-07-09 23:30:14.920702, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-10
+Tried at 2023-07-10 23:30:14.920763, but reco already done !!
+
+
+*******************
+Reconciliation for:  2023-07-11
+Tried at 2023-07-11 23:30:14.920833, but reco already done !!
+File Deleted for check usage
+
